@@ -1,7 +1,3 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -11,6 +7,33 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+
+/LudMain/Assets/Editor Default Resources/**
+/LudMain/Assets/ExternalDependencyManager/**
+/LudMain/Assets/Firebase/**
+/LudMain/Assets/GeneratedLocalRepo/**
+/LudMain/Assets/GoogleConfig/**
+/LudMain/Assets/Plugins/**
+/LudMain/Assets/StreamingAssets/**
+/LudMain/Assets/TextMesh Pro/**
+/LudMain/BuildIOS/**
+/LudMain/Library/**
+/LudMain/UserSettings/**
+/LudMain/ProjectSettings/**
+/LudMain/obj/**
+/LudMain/Packages/**
+
+**/TestFolder/*
+
+*.exr
+*.controller
+*.db
+*.meta
+*.mat
+*.jpg
+*.vsconfig
+*.prefab
+*.anim
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
